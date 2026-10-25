@@ -16,7 +16,8 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.shahnazar.triparedogbreeds"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -24,6 +25,11 @@
     "plugins": [
       "expo-sqlite",
       "expo-image"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "57333770-7332-44bf-bd09-286ea4f7fbb4"
+      }
+    }
   }
 }
